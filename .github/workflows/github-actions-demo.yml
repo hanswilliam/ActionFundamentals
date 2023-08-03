@@ -1,0 +1,24 @@
+name: Github Actions Demo
+
+on:
+  push:
+    branches:
+      -main
+    paths-ignore:
+      - '.github/**'
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        run: git ls-files
+      
+    
+      
+      
+  
+      
+
+
